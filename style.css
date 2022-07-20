@@ -53,6 +53,27 @@ body {
     border-radius: 5px;
     color: whitesmoke;
     font-weight: bold;
+    padding: 10px 15px;
+}
+
+.animate {
+    font-size: 18px;
+    vertical-align: center;
+    animation-name: btn-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btn-animation {
+    from {
+        transform: translate(1px);
+
+    }
+
+    to {
+        transform: translate(10px);
+    }
 }
 
 .fa-angle-right {
@@ -98,14 +119,16 @@ body {
     color: white;
 }
 
-button:hover {
-    background-color: lightslategrey;
-}
+
 
 button.active {
     background-color: red;
     color: white;
 } */
+
+button:hover {
+    background-color: #2bcbba;
+}
 
 .bg-white {
     background-color: rgb(207, 207, 207);
